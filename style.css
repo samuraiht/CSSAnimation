@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  background-color: blue;
+  color: white;
+}
+
+#star {
+	animation: 5s infinite linear starwars;
+}
+
+@keyframes starwars {
+  0% {
+    transform: translate(-30%);
+  }
+
+  100% {
+    transform: translate(105%);
+    opacity: 0;
+  }
+}
